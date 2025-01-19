@@ -1,5 +1,4 @@
-# BMI-Calculator-using-Flutter-Dart
-
+# BMI Calculator App
 
 This is a simple Flutter app to calculate the Body Mass Index (BMI) based on a user's weight and height in feet and inches. The app takes the user's input for height (in feet and inches) and weight (in kilograms), calculates the BMI, and displays the result along with the corresponding BMI category (Underweight, Normal weight, Overweight, Obesity).
 
@@ -12,10 +11,10 @@ This is a simple Flutter app to calculate the Body Mass Index (BMI) based on a u
   BMI = \frac{\text{Weight (kg)}}{\text{Height (m)}^2}
   \]
 - **BMI Categories**: Based on the BMI value, the app categorizes the result into:
-  - Underweight: BMI < 18.5
-  - Normal weight: 18.5 ≤ BMI < 24.9
-  - Overweight: 25 ≤ BMI < 29.9
-  - Obesity: BMI ≥ 30
+    - Underweight: BMI < 18.5
+    - Normal weight: 18.5 ≤ BMI < 24.9
+    - Overweight: 25 ≤ BMI < 29.9
+    - Obesity: BMI ≥ 30
 - **Dynamic UI**: The background color and text color change according to the BMI category.
 - **Error Handling**: If invalid input is provided (such as negative or non-numeric values), the app displays an error message.
 
